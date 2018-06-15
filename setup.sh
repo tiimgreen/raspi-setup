@@ -16,3 +16,17 @@ cd modules
 git clone https://github.com/tiimgreen/MMM-Football-Fixtures
 git clone https://github.com/tiimgreen/MMM-cryptocurrency
 git clone https://github.com/tiimgreen/MMM-Sonos-Control
+cd ~
+git clone https://github.com/tiimgreen/skywriter.py
+touch skywriter.sh
+chmod 777 skywriter.sh
+echo "cd skywriter.py" >> skywriter.sh
+echo "python3 skywriter.py" >> skywriter.sh
+touch magic_mirror.sh
+chmod 777 magic_mirror.sh
+echo "cd MagicMirror" >> magic_mirror.sh
+echo "DISPLAY=:0 npm start" >> magic_mirror.sh
+touch node_sonos.sh
+chmod 777 node_sonos.sh
+echo "cd node-sonos-http-api" >> node_sonos.sh
+echo "npm start" >> node_sonos.sh
