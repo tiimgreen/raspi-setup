@@ -6,4 +6,10 @@ cd ~/node-sonos-http-api
 npm install --production
 cd ~
 bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
-
+cd MagicMirror
+git remote set-url origin https://github.com/tiimgreen/MagicMirror
+git pull
+cd modules
+git clone https://github.com/tiimgreen/MMM-Football-Fixtures
+git clone https://github.com/tiimgreen/MMM-cryptocurrency
+git clone https://github.com/tiimgreen/MMM-Sonos-Control
