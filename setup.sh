@@ -17,6 +17,7 @@ git clone https://github.com/tiimgreen/MMM-Football-Fixtures
 git clone https://github.com/tiimgreen/MMM-cryptocurrency
 git clone https://github.com/tiimgreen/MMM-Sonos-Control
 cd ~
+curl -sS get.pimoroni.com/skywriter | bash
 git clone https://github.com/tiimgreen/skywriter.py
 touch skywriter.sh
 chmod 777 skywriter.sh
